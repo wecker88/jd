@@ -5,12 +5,12 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 HK 001, server: 47.243.169.90, port: 2096, type: trojan, password: troj, sni: troj.118558.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: troj.118558.xyz}}}
-  - {name: 🇭🇰 HK 002, server: 47.243.198.198, port: 2096, type: trojan, password: troj, sni: troj.118558.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: troj.118558.xyz}}}
-  - {name: 🇭🇰 HK 003, server: 47.243.120.239, port: 2096, type: trojan, password: troj, sni: troj.118558.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: troj.118558.xyz}}}
+  - {name: 🇭🇰 HK 001, server: 8.210.126.88, port: 2096, type: trojan, password: troj, sni: troj.118558.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: troj.118558.xyz}}}
+  - {name: 🇭🇰 HK 002, server: 47.76.159.146, port: 2096, type: trojan, password: troj, sni: troj.118558.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: troj.118558.xyz}}}
+  - {name: 🇭🇰 HK 003, server: 47.243.245.171, port: 25939, type: trojan, password: troj, sni: troj.118558.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: troj.118558.xyz}}}
   - {name: 🇸🇬 SG 001, server: 47.76.159.146, port: 2096, type: trojan, password: troj, sni: troj.118558.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: troj.118558.xyz}}}
   - {name: 🇸🇬 SG 002, server: 8.219.239.79, port: 2096, type: trojan, password: troj, sni: troj.118558.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: troj.118558.xyz}}}
-  - {name: 🇺🇲 US, server: 65.75.193.21, port: 37813, type: trojan, password: troj, sni: troj.118558.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: troj.118558.xyz}}}
+  - {name: 🇺🇲 US, server: 80.251.218.191, port: 27993, type: trojan, password: troj, sni: troj.118558.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: troj.118558.xyz}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
