@@ -8,9 +8,9 @@ proxies:
   - {name: 🇭🇰 HK 001, server: 47.243.169.90, port: 2096, type: trojan, password: troj, sni: troj.118558.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: troj.118558.xyz}}}
   - {name: 🇭🇰 HK 002, server: 47.243.120.239, port: 2096, type: trojan, password: troj, sni: troj.118558.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: troj.118558.xyz}}}
   - {name: 🇭🇰 HK 003, server: 47.76.29.115, port: 2083, type: trojan, password: troj, sni: troj.118558.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: troj.118558.xyz}}}
-  - {name: 🇸🇬 SG 001, server: 47.236.202.91, port: 2096, type: trojan, password: troj, sni: troj.118558.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: troj.118558.xyz}}}
+  - {name: 🇸🇬 SG 001, server: 47.236.171.205, port: 2083, type: trojan, password: troj, sni: troj.118558.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: troj.118558.xyz}}}
   - {name: 🇸🇬 SG 002, server: 8.219.239.79, port: 2096, type: trojan, password: troj, sni: troj.118558.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: troj.118558.xyz}}}
-  - {name: 🇺🇲 US, server: 8.20.125.1, port: 443, type: trojan, password: troj, sni: troj.118558.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: troj.118558.xyz}}}
+  - {name: 🇺🇲 US, server: 192.200.160.125, port: 443, type: trojan, password: troj, sni: troj.118558.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: troj.118558.xyz}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
