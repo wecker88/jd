@@ -22,7 +22,7 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"HK 001","type":"vless","server":"8.219.123.11","port":2053,"uuid":"31ccd500-7066-4e21-99b2-c0637f91ad62","tls":true,"servername":"hk.118558.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hk.118558.xyz"}},"client-fingerprint":"r和omized"}
+  - {"name":"HK 001","type":"vless","server":"47.243.169.90","port":2053,"uuid":"31ccd500-7066-4e21-99b2-c0637f91ad62","tls":true,"servername":"hk.118558.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hk.118558.xyz"}},"client-fingerprint":"r和omized"}
   - {"name":"HK 002","type":"vless","server":"43.155.89.93","port":55527,"uuid":"31ccd500-7066-4e21-99b2-c0637f91ad62","tls":true,"servername":"hk.118558.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hk.118558.xyz"}},"client-fingerprint":"randomized"}
   - {"name":"SG 001","type":"vless","server":"47.236.146.249","port":2083,"uuid":"31ccd500-7066-4e21-99b2-c0637f91ad62","tls":true,"servername":"hk.118558.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hk.118558.xyz"}},"client-fingerprint":"r和omized"}
   - {"name":"SG 002","type":"vless","server":"129.150.49.154","port":32799,"uuid":"31ccd500-7066-4e21-99b2-c0637f91ad62","tls":true,"servername":"hk.118558.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hk.118558.xyz"}},"client-fingerprint":"randomized"}
