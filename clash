@@ -22,7 +22,7 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"HK 001","type":"vless","server":"47.243.120.239","port":2096,"uuid":"31ccd500-7066-4e21-99b2-c0637f91ad62","tls":true,"servername":"hk.118558.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hk.118558.xyz"}},"client-fingerprint":"r和omized"}
+  - {"name":"HK 001","type":"vless","server":"8.219.123.11","port":2053,"uuid":"31ccd500-7066-4e21-99b2-c0637f91ad62","tls":true,"servername":"hk.118558.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hk.118558.xyz"}},"client-fingerprint":"r和omized"}
   - {"name":"HK 002","type":"vless","server":"43.155.89.93","port":55527,"uuid":"31ccd500-7066-4e21-99b2-c0637f91ad62","tls":true,"servername":"hk.118558.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hk.118558.xyz"}},"client-fingerprint":"randomized"}
   - {"name":"SG 001","type":"vless","server":"47.236.146.249","port":2083,"uuid":"31ccd500-7066-4e21-99b2-c0637f91ad62","tls":true,"servername":"hk.118558.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hk.118558.xyz"}},"client-fingerprint":"r和omized"}
   - {"name":"SG 002","type":"vless","server":"129.150.49.154","port":32799,"uuid":"31ccd500-7066-4e21-99b2-c0637f91ad62","tls":true,"servername":"hk.118558.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hk.118558.xyz"}},"client-fingerprint":"randomized"}
@@ -31,7 +31,7 @@ proxies:
   - {"name":"TW 001","type":"vless","server":"211.72.156.20","port":23555,"uuid":"31ccd500-7066-4e21-99b2-c0637f91ad62","tls":true,"servername":"hk.118558.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hk.118558.xyz"}},"client-fingerprint":"r和omized"}
   - {"name":"TW 002","type":"vless","server":"211.72.156.11","port":23555,"uuid":"31ccd500-7066-4e21-99b2-c0637f91ad62","tls":true,"servername":"hk.118558.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hk.118558.xyz"}},"client-fingerprint":"randomized"}
   - {"name":"US 001","type":"vless","server":"141.101.122.25","port":443,"uuid":"31ccd500-7066-4e21-99b2-c0637f91ad62","tls":true,"servername":"hk.118558.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hk.118558.xyz"}},"client-fingerprint":"r和omized"}
-  - {"name":"US 002","type":"vless","server":"45.59.185.130","port":25176,"uuid":"31ccd500-7066-4e21-99b2-c0637f91ad62","tls":true,"servername":"hk.118558.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hk.118558.xyz"}},"client-fingerprint":"randomized"}
+  - {"name":"US 002","type":"vless","server":"192.0.63.95","port":443,"uuid":"31ccd500-7066-4e21-99b2-c0637f91ad62","tls":true,"servername":"hk.118558.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hk.118558.xyz"}},"client-fingerprint":"r和omized"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
