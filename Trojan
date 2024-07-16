@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 HK 001, server: 47.76.214.139, port: 2083, type: trojan, password: troj, sni: troj.118558.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: troj.118558.xyz}}}
+  - {name: 🇭🇰 HK 001, server: 47.243.169.90, port: 2083, type: trojan, password: troj, sni: troj.118558.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: troj.118558.xyz}}}
   - {name: 🇭🇰 HK 002, server: 47.243.120.239, port: 2096, type: trojan, password: troj, sni: troj.118558.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: troj.118558.xyz}}}
   - {name: 🇭🇰 HK 003, server: 8.219.208.104, port: 2083, type: trojan, password: troj, sni: troj.118558.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: troj.118558.xyz}}}
   - {name: 🇸🇬 SG 001, server: 47.236.10.182, port: 2083, type: trojan, password: troj, sni: troj.118558.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: troj.118558.xyz}}}
