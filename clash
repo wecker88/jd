@@ -22,19 +22,28 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {name: "HK,", server: 47.129.175.47, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "JP,", server: 13.229.238.238, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "HK, 2", server: 13.212.149.182, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "SG,", server: 54.151.152.144, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "HK,", server: 47.129.221.160, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "KR,", server: 52.77.236.51, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "JP, 2", server: 52.221.236.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "JP, 3", server: 3.36.115.124, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "JP, 4", server: 175.41.236.186, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "SG, 2", server: 52.69.236.102, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "JP, 5", server: 57.180.42.246, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "JP,", server: 3.36.115.124, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "US,", server: 54.202.75.206, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "HK, 2", server: 13.228.183.100, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "SG,", server: 52.196.65.55, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "JP, 2", server: 43.201.254.74, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "JP, 3", server: 43.201.254.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "US, 2", server: 54.68.160.24, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "HK, 3", server: 54.149.182.67, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "HK, 4", server: 47.129.221.160, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "JP, 4", server: 13.229.238.238, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "KR, 2", server: 54.238.65.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "JP, 5", server: 52.221.236.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "CA,", server: 54.187.244.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "HK, 4", server: 52.79.56.225, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "JP, 6", server: 175.41.236.186, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "HK, 5", server: 18.183.171.233, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "CA, 2", server: 44.243.225.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "CA, 3", server: 34.209.103.254, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "HK, 6", server: 13.212.149.182, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "SG, 2", server: 54.151.152.144, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "JP, 7", server: 3.35.54.153, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -44,18 +53,27 @@ proxy-groups:
       - 🔮 负载均衡
       - DIRECT
       - HK,
+      - KR,
       - JP,
+      - US,
       - HK, 2
       - SG,
-      - KR,
       - JP, 2
       - JP, 3
-      - JP, 4
-      - SG, 2
-      - JP, 5
+      - US, 2
       - HK, 3
-      - HK, 4
+      - JP, 4
+      - KR, 2
+      - JP, 5
       - CA,
+      - HK, 4
+      - JP, 6
+      - HK, 5
+      - CA, 2
+      - CA, 3
+      - HK, 6
+      - SG, 2
+      - JP, 7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -63,36 +81,54 @@ proxy-groups:
     tolerance: 50
     proxies:
       - HK,
+      - KR,
       - JP,
+      - US,
       - HK, 2
       - SG,
-      - KR,
       - JP, 2
       - JP, 3
-      - JP, 4
-      - SG, 2
-      - JP, 5
+      - US, 2
       - HK, 3
-      - HK, 4
+      - JP, 4
+      - KR, 2
+      - JP, 5
       - CA,
+      - HK, 4
+      - JP, 6
+      - HK, 5
+      - CA, 2
+      - CA, 3
+      - HK, 6
+      - SG, 2
+      - JP, 7
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
       - HK,
+      - KR,
       - JP,
+      - US,
       - HK, 2
       - SG,
-      - KR,
       - JP, 2
       - JP, 3
-      - JP, 4
-      - SG, 2
-      - JP, 5
+      - US, 2
       - HK, 3
-      - HK, 4
+      - JP, 4
+      - KR, 2
+      - JP, 5
       - CA,
+      - HK, 4
+      - JP, 6
+      - HK, 5
+      - CA, 2
+      - CA, 3
+      - HK, 6
+      - SG, 2
+      - JP, 7
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -100,18 +136,27 @@ proxy-groups:
     interval: 180
     proxies:
       - HK,
+      - KR,
       - JP,
+      - US,
       - HK, 2
       - SG,
-      - KR,
       - JP, 2
       - JP, 3
-      - JP, 4
-      - SG, 2
-      - JP, 5
+      - US, 2
       - HK, 3
-      - HK, 4
+      - JP, 4
+      - KR, 2
+      - JP, 5
       - CA,
+      - HK, 4
+      - JP, 6
+      - HK, 5
+      - CA, 2
+      - CA, 3
+      - HK, 6
+      - SG, 2
+      - JP, 7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -132,18 +177,27 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - HK,
+      - KR,
       - JP,
+      - US,
       - HK, 2
       - SG,
-      - KR,
       - JP, 2
       - JP, 3
-      - JP, 4
-      - SG, 2
-      - JP, 5
+      - US, 2
       - HK, 3
-      - HK, 4
+      - JP, 4
+      - KR, 2
+      - JP, 5
       - CA,
+      - HK, 4
+      - JP, 6
+      - HK, 5
+      - CA, 2
+      - CA, 3
+      - HK, 6
+      - SG, 2
+      - JP, 7
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
