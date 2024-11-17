@@ -22,16 +22,13 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"HK 001","type":"vless","server":"47.243.169.90","port":8443,"uuid":"31ccd500-7066-4e21-99b2-c0637f91ad62","tls":true,"servername":"hk.118558.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hk.118558.xyz"}},"client-fingerprint":"r和omized"}
-  - {"name":"HK 002","type":"vless","server":"43.155.89.93","port":55527,"uuid":"31ccd500-7066-4e21-99b2-c0637f91ad62","tls":true,"servername":"hk.118558.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hk.118558.xyz"}},"client-fingerprint":"randomized"}
-  - {"name":"SG 001","type":"vless","server":"47.236.146.249","port":2083,"uuid":"31ccd500-7066-4e21-99b2-c0637f91ad62","tls":true,"servername":"hk.118558.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hk.118558.xyz"}},"client-fingerprint":"r和omized"}
-  - {"name":"SG 002","type":"vless","server":"129.150.49.154","port":32799,"uuid":"31ccd500-7066-4e21-99b2-c0637f91ad62","tls":true,"servername":"hk.118558.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hk.118558.xyz"}},"client-fingerprint":"randomized"}
-  - {"name":"JP 001","type":"vless","server":"152.69.199.70","port":8443,"uuid":"31ccd500-7066-4e21-99b2-c0637f91ad62","tls":true,"servername":"hk.118558.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hk.118558.xyz"}},"client-fingerprint":"r和omized"}
-  - {"name":"JP 002","type":"vless","server":"152.70.86.93","port":443,"uuid":"31ccd500-7066-4e21-99b2-c0637f91ad62","tls":true,"servername":"hk.118558.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hk.118558.xyz"}},"client-fingerprint":"randomized"}
-  - {"name":"TW 001","type":"vless","server":"211.72.156.20","port":23555,"uuid":"31ccd500-7066-4e21-99b2-c0637f91ad62","tls":true,"servername":"hk.118558.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hk.118558.xyz"}},"client-fingerprint":"r和omized"}
-  - {"name":"TW 002","type":"vless","server":"211.72.156.11","port":23555,"uuid":"31ccd500-7066-4e21-99b2-c0637f91ad62","tls":true,"servername":"hk.118558.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hk.118558.xyz"}},"client-fingerprint":"randomized"}
-  - {"name":"US 001","type":"vless","server":"141.101.122.25","port":443,"uuid":"31ccd500-7066-4e21-99b2-c0637f91ad62","tls":true,"servername":"hk.118558.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hk.118558.xyz"}},"client-fingerprint":"r和omized"}
-  - {"name":"US 002","type":"vless","server":"192.0.63.95","port":443,"uuid":"31ccd500-7066-4e21-99b2-c0637f91ad62","tls":true,"servername":"hk.118558.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hk.118558.xyz"}},"client-fingerprint":"r和omized"}
+  - {name: "KR,", server: 52.77.236.51, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "HK,", server: 47.129.221.160, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "JP,", server: 52.221.236.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "SG,", server: 52.69.236.102, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "HK, 2", server: 47.129.175.47, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "JP, 2", server: 3.36.115.124, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "CA,", server: 44.243.225.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -40,63 +37,51 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - HK 001
-      - HK 002
-      - SG 001
-      - SG 002
-      - JP 001
-      - JP 002
-      - TW 001
-      - TW 002
-      - US 001
-      - US 002
+      - KR,
+      - HK,
+      - JP,
+      - SG,
+      - HK, 2
+      - JP, 2
+      - CA,
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - HK 001
-      - HK 002
-      - SG 001
-      - SG 002
-      - JP 001
-      - JP 002
-      - TW 001
-      - TW 002
-      - US 001
-      - US 002
+      - KR,
+      - HK,
+      - JP,
+      - SG,
+      - HK, 2
+      - JP, 2
+      - CA,
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - HK 001
-      - HK 002
-      - SG 001
-      - SG 002
-      - JP 001
-      - JP 002
-      - TW 001
-      - TW 002
-      - US 001
-      - US 002
+      - KR,
+      - HK,
+      - JP,
+      - SG,
+      - HK, 2
+      - JP, 2
+      - CA,
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - HK 001
-      - HK 002
-      - SG 001
-      - SG 002
-      - JP 001
-      - JP 002
-      - TW 001
-      - TW 002
-      - US 001
-      - US 002
+      - KR,
+      - HK,
+      - JP,
+      - SG,
+      - HK, 2
+      - JP, 2
+      - CA,
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -116,16 +101,13 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - HK 001
-      - HK 002
-      - SG 001
-      - SG 002
-      - JP 001
-      - JP 002
-      - TW 001
-      - TW 002
-      - US 001
-      - US 002
+      - KR,
+      - HK,
+      - JP,
+      - SG,
+      - HK, 2
+      - JP, 2
+      - CA,
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
