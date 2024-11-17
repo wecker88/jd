@@ -21,7 +21,8 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 
-proxies:  - {name: "HK,", server: 47.129.175.47, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+proxies:
+  - {name: "HK,", server: 47.129.175.47, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "JP,", server: 13.229.238.238, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "HK, 2", server: 13.212.149.182, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "SG,", server: 54.151.152.144, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
