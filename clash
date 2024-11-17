@@ -21,14 +21,19 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 
-proxies:
+proxies:  - {name: "HK,", server: 47.129.175.47, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "JP,", server: 13.229.238.238, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "HK, 2", server: 13.212.149.182, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "SG,", server: 54.151.152.144, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "KR,", server: 52.77.236.51, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "HK,", server: 47.129.221.160, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "JP,", server: 52.221.236.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "SG,", server: 52.69.236.102, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "HK, 2", server: 47.129.175.47, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "JP, 2", server: 3.36.115.124, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "CA,", server: 44.243.225.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "JP, 2", server: 52.221.236.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "JP, 3", server: 3.36.115.124, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "JP, 4", server: 175.41.236.186, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "SG, 2", server: 52.69.236.102, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "JP, 5", server: 57.180.42.246, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "HK, 3", server: 54.149.182.67, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "HK, 4", server: 47.129.221.160, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "CA,", server: 54.187.244.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -37,12 +42,18 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - KR,
       - HK,
       - JP,
-      - SG,
       - HK, 2
+      - SG,
+      - KR,
       - JP, 2
+      - JP, 3
+      - JP, 4
+      - SG, 2
+      - JP, 5
+      - HK, 3
+      - HK, 4
       - CA,
   - name: ♻️ 自动选择
     type: url-test
@@ -50,24 +61,36 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - KR,
       - HK,
       - JP,
-      - SG,
       - HK, 2
+      - SG,
+      - KR,
       - JP, 2
+      - JP, 3
+      - JP, 4
+      - SG, 2
+      - JP, 5
+      - HK, 3
+      - HK, 4
       - CA,
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - KR,
       - HK,
       - JP,
-      - SG,
       - HK, 2
+      - SG,
+      - KR,
       - JP, 2
+      - JP, 3
+      - JP, 4
+      - SG, 2
+      - JP, 5
+      - HK, 3
+      - HK, 4
       - CA,
   - name: 🔮 负载均衡
     type: load-balance
@@ -75,12 +98,18 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - KR,
       - HK,
       - JP,
-      - SG,
       - HK, 2
+      - SG,
+      - KR,
       - JP, 2
+      - JP, 3
+      - JP, 4
+      - SG, 2
+      - JP, 5
+      - HK, 3
+      - HK, 4
       - CA,
   - name: 🎯 全球直连
     type: select
@@ -101,12 +130,18 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - KR,
       - HK,
       - JP,
-      - SG,
       - HK, 2
+      - SG,
+      - KR,
       - JP, 2
+      - JP, 3
+      - JP, 4
+      - SG, 2
+      - JP, 5
+      - HK, 3
+      - HK, 4
       - CA,
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
