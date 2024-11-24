@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-11-24 06:55:07
+# 生成时间：2024-11-24 23:05:50
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,163 +58,191 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: CA
+  - name: HK,_1
     port: 443
-    server: 50.112.199.89
+    server: 13.124.203.141
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: HK_1
+  - name: HK,_2
     port: 443
-    server: 13.209.16.115
+    server: 18.237.252.210
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: HK_2
+  - name: HK,_3
     port: 443
-    server: 13.231.227.176
+    server: 54.64.20.76
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: HK_3
-    port: 443
-    server: 34.216.7.165
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: HK_4
-    port: 443
-    server: 43.203.249.198
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: HK_5
-    port: 443
-    server: 52.195.4.43
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: HK_6
+  - name: HK,_4
     port: 443
     server: 54.180.157.150
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: HK_7
-    port: 443
-    server: 54.250.148.116
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: HK_8
-    port: 443
-    server: 52.79.188.238
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: JP_1
-    port: 443
-    server: 13.231.232.11
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: JP_2
-    port: 443
-    server: 43.203.173.72
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: KR
-    port: 443
-    server: 18.183.217.223
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: SG_1
-    port: 443
-    server: 13.231.108.239
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: SG_2
-    port: 443
-    server: 43.207.163.206
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: SG_3
-    port: 443
-    server: 54.168.231.174
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: TW
+  - name: HK,_5
     port: 443
     server: 13.124.74.226
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: US_1
+  - name: HK,_6
     port: 443
-    server: 18.236.180.126
+    server: 50.112.199.89
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: US_2
+  - name: HK,_7
     port: 443
-    server: 34.220.113.138
+    server: 3.39.240.246
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: US_3
+  - name: HK,_8
     port: 443
-    server: 44.244.25.243
+    server: 43.206.238.246
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: US_4
+  - name: HK,_9
     port: 443
-    server: 52.88.193.52
+    server: 52.196.65.55
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: US_5
+  - name: HK,_10
     port: 443
-    server: 54.186.178.129
+    server: 34.216.7.165
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: US_6
+  - name: JP,_1
+    port: 443
+    server: 35.77.100.154
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: JP,_2
+    port: 443
+    server: 18.183.217.223
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: JP,_3
+    port: 443
+    server: 34.219.52.114
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: JP,_4
+    port: 443
+    server: 43.201.254.211
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: JP,_5
+    port: 443
+    server: 43.201.254.74
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: JP,_6
+    port: 443
+    server: 13.231.227.176
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: KR,_1
+    port: 443
+    server: 13.231.232.11
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: KR,_2
+    port: 443
+    server: 52.79.188.238
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: SG,_1
+    port: 443
+    server: 54.250.148.116
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: SG,_2
+    port: 443
+    server: 43.202.57.197
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: SG,_3
+    port: 443
+    server: 54.248.142.136
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: TW,_1
+    port: 443
+    server: 43.207.163.206
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: TW,_2
+    port: 443
+    server: 47.128.215.67
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: US,_1
+    port: 443
+    server: 52.43.67.42
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: US,_2
     port: 443
     server: 54.245.4.48
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: US_7
+  - name: US,_3
     port: 443
-    server: 52.43.67.42
+    server: 35.94.117.219
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: US,_4
+    port: 443
+    server: 34.215.160.52
     type: ss
     udp: true
     password: amazonskr05
@@ -225,171 +253,195 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - CA
-      - HK_1
-      - HK_2
-      - HK_3
-      - HK_4
-      - HK_5
-      - HK_6
-      - HK_7
-      - HK_8
-      - JP_1
-      - JP_2
-      - KR
-      - SG_1
-      - SG_2
-      - SG_3
-      - TW
-      - US_1
-      - US_2
-      - US_3
-      - US_4
-      - US_5
-      - US_6
-      - US_7
+      - HK,_1
+      - HK,_2
+      - HK,_3
+      - HK,_4
+      - HK,_5
+      - HK,_6
+      - HK,_7
+      - HK,_8
+      - HK,_9
+      - HK,_10
+      - JP,_1
+      - JP,_2
+      - JP,_3
+      - JP,_4
+      - JP,_5
+      - JP,_6
+      - KR,_1
+      - KR,_2
+      - SG,_1
+      - SG,_2
+      - SG,_3
+      - TW,_1
+      - TW,_2
+      - US,_1
+      - US,_2
+      - US,_3
+      - US,_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - CA
-      - HK_1
-      - HK_2
-      - HK_3
-      - HK_4
-      - HK_5
-      - HK_6
-      - HK_7
-      - HK_8
-      - JP_1
-      - JP_2
-      - KR
-      - SG_1
-      - SG_2
-      - SG_3
-      - TW
-      - US_1
-      - US_2
-      - US_3
-      - US_4
-      - US_5
-      - US_6
-      - US_7
+      - HK,_1
+      - HK,_2
+      - HK,_3
+      - HK,_4
+      - HK,_5
+      - HK,_6
+      - HK,_7
+      - HK,_8
+      - HK,_9
+      - HK,_10
+      - JP,_1
+      - JP,_2
+      - JP,_3
+      - JP,_4
+      - JP,_5
+      - JP,_6
+      - KR,_1
+      - KR,_2
+      - SG,_1
+      - SG,_2
+      - SG,_3
+      - TW,_1
+      - TW,_2
+      - US,_1
+      - US,_2
+      - US,_3
+      - US,_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CA
-      - HK_1
-      - HK_2
-      - HK_3
-      - HK_4
-      - HK_5
-      - HK_6
-      - HK_7
-      - HK_8
-      - JP_1
-      - JP_2
-      - KR
-      - SG_1
-      - SG_2
-      - SG_3
-      - TW
-      - US_1
-      - US_2
-      - US_3
-      - US_4
-      - US_5
-      - US_6
-      - US_7
+      - HK,_1
+      - HK,_2
+      - HK,_3
+      - HK,_4
+      - HK,_5
+      - HK,_6
+      - HK,_7
+      - HK,_8
+      - HK,_9
+      - HK,_10
+      - JP,_1
+      - JP,_2
+      - JP,_3
+      - JP,_4
+      - JP,_5
+      - JP,_6
+      - KR,_1
+      - KR,_2
+      - SG,_1
+      - SG,_2
+      - SG,_3
+      - TW,_1
+      - TW,_2
+      - US,_1
+      - US,_2
+      - US,_3
+      - US,_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CA
-      - HK_1
-      - HK_2
-      - HK_3
-      - HK_4
-      - HK_5
-      - HK_6
-      - HK_7
-      - HK_8
-      - JP_1
-      - JP_2
-      - KR
-      - SG_1
-      - SG_2
-      - SG_3
-      - TW
-      - US_1
-      - US_2
-      - US_3
-      - US_4
-      - US_5
-      - US_6
-      - US_7
+      - HK,_1
+      - HK,_2
+      - HK,_3
+      - HK,_4
+      - HK,_5
+      - HK,_6
+      - HK,_7
+      - HK,_8
+      - HK,_9
+      - HK,_10
+      - JP,_1
+      - JP,_2
+      - JP,_3
+      - JP,_4
+      - JP,_5
+      - JP,_6
+      - KR,_1
+      - KR,_2
+      - SG,_1
+      - SG,_2
+      - SG,_3
+      - TW,_1
+      - TW,_2
+      - US,_1
+      - US,_2
+      - US,_3
+      - US,_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - CA
-      - HK_1
-      - HK_2
-      - HK_3
-      - HK_4
-      - HK_5
-      - HK_6
-      - HK_7
-      - HK_8
-      - JP_1
-      - JP_2
-      - KR
-      - SG_1
-      - SG_2
-      - SG_3
-      - TW
-      - US_1
-      - US_2
-      - US_3
-      - US_4
-      - US_5
-      - US_6
-      - US_7
+      - HK,_1
+      - HK,_2
+      - HK,_3
+      - HK,_4
+      - HK,_5
+      - HK,_6
+      - HK,_7
+      - HK,_8
+      - HK,_9
+      - HK,_10
+      - JP,_1
+      - JP,_2
+      - JP,_3
+      - JP,_4
+      - JP,_5
+      - JP,_6
+      - KR,_1
+      - KR,_2
+      - SG,_1
+      - SG,_2
+      - SG,_3
+      - TW,_1
+      - TW,_2
+      - US,_1
+      - US,_2
+      - US,_3
+      - US,_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CA
-      - HK_1
-      - HK_2
-      - HK_3
-      - HK_4
-      - HK_5
-      - HK_6
-      - HK_7
-      - HK_8
-      - JP_1
-      - JP_2
-      - KR
-      - SG_1
-      - SG_2
-      - SG_3
-      - TW
-      - US_1
-      - US_2
-      - US_3
-      - US_4
-      - US_5
-      - US_6
-      - US_7
+      - HK,_1
+      - HK,_2
+      - HK,_3
+      - HK,_4
+      - HK,_5
+      - HK,_6
+      - HK,_7
+      - HK,_8
+      - HK,_9
+      - HK,_10
+      - JP,_1
+      - JP,_2
+      - JP,_3
+      - JP,_4
+      - JP,_5
+      - JP,_6
+      - KR,_1
+      - KR,_2
+      - SG,_1
+      - SG,_2
+      - SG,_3
+      - TW,_1
+      - TW,_2
+      - US,_1
+      - US,_2
+      - US,_3
+      - US,_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -412,29 +464,33 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CA
-      - HK_1
-      - HK_2
-      - HK_3
-      - HK_4
-      - HK_5
-      - HK_6
-      - HK_7
-      - HK_8
-      - JP_1
-      - JP_2
-      - KR
-      - SG_1
-      - SG_2
-      - SG_3
-      - TW
-      - US_1
-      - US_2
-      - US_3
-      - US_4
-      - US_5
-      - US_6
-      - US_7
+      - HK,_1
+      - HK,_2
+      - HK,_3
+      - HK,_4
+      - HK,_5
+      - HK,_6
+      - HK,_7
+      - HK,_8
+      - HK,_9
+      - HK,_10
+      - JP,_1
+      - JP,_2
+      - JP,_3
+      - JP,_4
+      - JP,_5
+      - JP,_6
+      - KR,_1
+      - KR,_2
+      - SG,_1
+      - SG,_2
+      - SG,_3
+      - TW,_1
+      - TW,_2
+      - US,_1
+      - US,_2
+      - US,_3
+      - US,_4
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
