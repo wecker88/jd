@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-11-24 23:05:50
+# 生成时间：2024-11-24 23:35:44
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -128,6 +128,27 @@ proxies:
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
+  - name: HK,_11
+    port: 443
+    server: 43.203.249.198
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: HK,_12
+    port: 443
+    server: 13.209.16.115
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: HK,_13
+    port: 443
+    server: 52.195.4.43
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
   - name: JP,_1
     port: 443
     server: 35.77.100.154
@@ -205,16 +226,16 @@ proxies:
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: TW,_1
+  - name: SG,_4
     port: 443
     server: 43.207.163.206
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: TW,_2
+  - name: SG,_5
     port: 443
-    server: 47.128.215.67
+    server: 54.168.231.174
     type: ss
     udp: true
     password: amazonskr05
@@ -247,6 +268,41 @@ proxies:
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
+  - name: US,_5
+    port: 443
+    server: 18.236.180.126
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: US,_6
+    port: 443
+    server: 34.220.113.138
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: US,_7
+    port: 443
+    server: 44.244.25.243
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: US,_8
+    port: 443
+    server: 52.88.193.52
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: US,_9
+    port: 443
+    server: 54.186.178.129
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -263,6 +319,9 @@ proxy-groups:
       - HK,_8
       - HK,_9
       - HK,_10
+      - HK,_11
+      - HK,_12
+      - HK,_13
       - JP,_1
       - JP,_2
       - JP,_3
@@ -274,12 +333,17 @@ proxy-groups:
       - SG,_1
       - SG,_2
       - SG,_3
-      - TW,_1
-      - TW,_2
+      - SG,_4
+      - SG,_5
       - US,_1
       - US,_2
       - US,_3
       - US,_4
+      - US,_5
+      - US,_6
+      - US,_7
+      - US,_8
+      - US,_9
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -296,6 +360,9 @@ proxy-groups:
       - HK,_8
       - HK,_9
       - HK,_10
+      - HK,_11
+      - HK,_12
+      - HK,_13
       - JP,_1
       - JP,_2
       - JP,_3
@@ -307,12 +374,17 @@ proxy-groups:
       - SG,_1
       - SG,_2
       - SG,_3
-      - TW,_1
-      - TW,_2
+      - SG,_4
+      - SG,_5
       - US,_1
       - US,_2
       - US,_3
       - US,_4
+      - US,_5
+      - US,_6
+      - US,_7
+      - US,_8
+      - US,_9
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -329,6 +401,9 @@ proxy-groups:
       - HK,_8
       - HK,_9
       - HK,_10
+      - HK,_11
+      - HK,_12
+      - HK,_13
       - JP,_1
       - JP,_2
       - JP,_3
@@ -340,12 +415,17 @@ proxy-groups:
       - SG,_1
       - SG,_2
       - SG,_3
-      - TW,_1
-      - TW,_2
+      - SG,_4
+      - SG,_5
       - US,_1
       - US,_2
       - US,_3
       - US,_4
+      - US,_5
+      - US,_6
+      - US,_7
+      - US,_8
+      - US,_9
   - name: 📲 电报信息
     type: select
     proxies:
@@ -361,6 +441,9 @@ proxy-groups:
       - HK,_8
       - HK,_9
       - HK,_10
+      - HK,_11
+      - HK,_12
+      - HK,_13
       - JP,_1
       - JP,_2
       - JP,_3
@@ -372,12 +455,17 @@ proxy-groups:
       - SG,_1
       - SG,_2
       - SG,_3
-      - TW,_1
-      - TW,_2
+      - SG,_4
+      - SG,_5
       - US,_1
       - US,_2
       - US,_3
       - US,_4
+      - US,_5
+      - US,_6
+      - US,_7
+      - US,_8
+      - US,_9
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -393,6 +481,9 @@ proxy-groups:
       - HK,_8
       - HK,_9
       - HK,_10
+      - HK,_11
+      - HK,_12
+      - HK,_13
       - JP,_1
       - JP,_2
       - JP,_3
@@ -404,12 +495,17 @@ proxy-groups:
       - SG,_1
       - SG,_2
       - SG,_3
-      - TW,_1
-      - TW,_2
+      - SG,_4
+      - SG,_5
       - US,_1
       - US,_2
       - US,_3
       - US,_4
+      - US,_5
+      - US,_6
+      - US,_7
+      - US,_8
+      - US,_9
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -425,6 +521,9 @@ proxy-groups:
       - HK,_8
       - HK,_9
       - HK,_10
+      - HK,_11
+      - HK,_12
+      - HK,_13
       - JP,_1
       - JP,_2
       - JP,_3
@@ -436,12 +535,17 @@ proxy-groups:
       - SG,_1
       - SG,_2
       - SG,_3
-      - TW,_1
-      - TW,_2
+      - SG,_4
+      - SG,_5
       - US,_1
       - US,_2
       - US,_3
       - US,_4
+      - US,_5
+      - US,_6
+      - US,_7
+      - US,_8
+      - US,_9
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -474,6 +578,9 @@ proxy-groups:
       - HK,_8
       - HK,_9
       - HK,_10
+      - HK,_11
+      - HK,_12
+      - HK,_13
       - JP,_1
       - JP,_2
       - JP,_3
@@ -485,12 +592,17 @@ proxy-groups:
       - SG,_1
       - SG,_2
       - SG,_3
-      - TW,_1
-      - TW,_2
+      - SG,_4
+      - SG,_5
       - US,_1
       - US,_2
       - US,_3
       - US,_4
+      - US,_5
+      - US,_6
+      - US,_7
+      - US,_8
+      - US,_9
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
