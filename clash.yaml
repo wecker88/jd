@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-11-25 23:14:46
+# 生成时间：2024-11-25 23:26:48
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -107,13 +107,6 @@ proxies:
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: "🇯🇵 JP, "
-    port: 443
-    server: 35.77.100.154
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
   - name: 🇺🇲 US,
     port: 443
     server: 35.94.117.219
@@ -155,7 +148,6 @@ proxy-groups:
       - 🇭🇰 HK, _4
       - 🇭🇰 HK, _5
       - 🇯🇵 JP,
-      - "🇯🇵 JP, "
       - 🇺🇲 US,
       - 🇺🇲 US, _1
       - 🇺🇲 US, _2
@@ -173,7 +165,6 @@ proxy-groups:
       - 🇭🇰 HK, _4
       - 🇭🇰 HK, _5
       - 🇯🇵 JP,
-      - "🇯🇵 JP, "
       - 🇺🇲 US,
       - 🇺🇲 US, _1
       - 🇺🇲 US, _2
@@ -191,7 +182,6 @@ proxy-groups:
       - 🇭🇰 HK, _4
       - 🇭🇰 HK, _5
       - 🇯🇵 JP,
-      - "🇯🇵 JP, "
       - 🇺🇲 US,
       - 🇺🇲 US, _1
       - 🇺🇲 US, _2
@@ -208,7 +198,6 @@ proxy-groups:
       - 🇭🇰 HK, _4
       - 🇭🇰 HK, _5
       - 🇯🇵 JP,
-      - "🇯🇵 JP, "
       - 🇺🇲 US,
       - 🇺🇲 US, _1
       - 🇺🇲 US, _2
@@ -225,7 +214,6 @@ proxy-groups:
       - 🇭🇰 HK, _4
       - 🇭🇰 HK, _5
       - 🇯🇵 JP,
-      - "🇯🇵 JP, "
       - 🇺🇲 US,
       - 🇺🇲 US, _1
       - 🇺🇲 US, _2
@@ -242,7 +230,6 @@ proxy-groups:
       - 🇭🇰 HK, _4
       - 🇭🇰 HK, _5
       - 🇯🇵 JP,
-      - "🇯🇵 JP, "
       - 🇺🇲 US,
       - 🇺🇲 US, _1
       - 🇺🇲 US, _2
@@ -276,7 +263,6 @@ proxy-groups:
       - 🇭🇰 HK, _4
       - 🇭🇰 HK, _5
       - 🇯🇵 JP,
-      - "🇯🇵 JP, "
       - 🇺🇲 US,
       - 🇺🇲 US, _1
       - 🇺🇲 US, _2
