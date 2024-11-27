@@ -5,111 +5,83 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "JP,", server: 13.231.227.176, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "JP, 2", server: 13.231.232.11, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "JP, 3", server: 35.77.100.154, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "JP, 4", server: 43.207.163.206, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "JP, 5", server: 54.168.231.174, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "KR,", server: 13.124.74.226, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "KR, 2", server: 13.124.203.141, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "KR, 3", server: 54.180.157.150, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "SG,", server: 52.77.236.51, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "US,", server: 18.236.180.126, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "US, 2", server: 18.237.252.210, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "US, 3", server: 34.215.160.52, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "US, 4", server: 34.216.7.165, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "US, 5", server: 34.219.52.114, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "US, 6", server: 34.219.118.99, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "US, 7", server: 35.91.205.11, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "US, 8", server: 35.94.117.219, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "US, 9", server: 50.112.199.89, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "US, 10", server: 52.43.67.42, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "US, 11", server: 52.88.193.52, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "US, 12", server: 54.186.178.129, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "US, 13", server: 54.200.220.184, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: JP, server: 57.180.42.246, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: JP 2, server: 43.207.163.206, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: JP 3, server: 13.231.227.176, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: JP 4, server: 54.250.148.116, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: JP 5, server: 54.64.20.76, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: KR, server: 43.202.57.197, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: KR 2, server: 13.124.203.141, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: KR 3, server: 54.180.157.150, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: KR 4, server: 43.203.249.198, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: KR 5, server: 13.124.74.226, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: US, server: 34.219.52.114, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: US 2, server: 18.237.252.210, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: US 3, server: 34.215.160.52, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: US 4, server: 54.245.4.48, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: US 5, server: 52.88.193.52, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JP,
-      - JP, 2
-      - JP, 3
-      - JP, 4
-      - JP, 5
-      - KR,
-      - KR, 2
-      - KR, 3
-      - SG,
-      - US,
-      - US, 2
-      - US, 3
-      - US, 4
-      - US, 5
-      - US, 6
-      - US, 7
-      - US, 8
-      - US, 9
-      - US, 10
-      - US, 11
-      - US, 12
-      - US, 13
+      - JP
+      - JP 2
+      - JP 3
+      - JP 4
+      - JP 5
+      - KR
+      - KR 2
+      - KR 3
+      - KR 4
+      - KR 5
+      - US
+      - US 2
+      - US 3
+      - US 4
+      - US 5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - JP,
-      - JP, 2
-      - JP, 3
-      - JP, 4
-      - JP, 5
-      - KR,
-      - KR, 2
-      - KR, 3
-      - SG,
-      - US,
-      - US, 2
-      - US, 3
-      - US, 4
-      - US, 5
-      - US, 6
-      - US, 7
-      - US, 8
-      - US, 9
-      - US, 10
-      - US, 11
-      - US, 12
-      - US, 13
+      - JP
+      - JP 2
+      - JP 3
+      - JP 4
+      - JP 5
+      - KR
+      - KR 2
+      - KR 3
+      - KR 4
+      - KR 5
+      - US
+      - US 2
+      - US 3
+      - US 4
+      - US 5
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JP,
-      - JP, 2
-      - JP, 3
-      - JP, 4
-      - JP, 5
-      - KR,
-      - KR, 2
-      - KR, 3
-      - SG,
-      - US,
-      - US, 2
-      - US, 3
-      - US, 4
-      - US, 5
-      - US, 6
-      - US, 7
-      - US, 8
-      - US, 9
-      - US, 10
-      - US, 11
-      - US, 12
-      - US, 13
+      - JP
+      - JP 2
+      - JP 3
+      - JP 4
+      - JP 5
+      - KR
+      - KR 2
+      - KR 3
+      - KR 4
+      - KR 5
+      - US
+      - US 2
+      - US 3
+      - US 4
+      - US 5
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -128,28 +100,21 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JP,
-      - JP, 2
-      - JP, 3
-      - JP, 4
-      - JP, 5
-      - KR,
-      - KR, 2
-      - KR, 3
-      - SG,
-      - US,
-      - US, 2
-      - US, 3
-      - US, 4
-      - US, 5
-      - US, 6
-      - US, 7
-      - US, 8
-      - US, 9
-      - US, 10
-      - US, 11
-      - US, 12
-      - US, 13
+      - JP
+      - JP 2
+      - JP 3
+      - JP 4
+      - JP 5
+      - KR
+      - KR 2
+      - KR 3
+      - KR 4
+      - KR 5
+      - US
+      - US 2
+      - US 3
+      - US 4
+      - US 5
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -160,83 +125,62 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - JP,
-      - JP, 2
-      - JP, 3
-      - JP, 4
-      - JP, 5
-      - KR,
-      - KR, 2
-      - KR, 3
-      - SG,
-      - US,
-      - US, 2
-      - US, 3
-      - US, 4
-      - US, 5
-      - US, 6
-      - US, 7
-      - US, 8
-      - US, 9
-      - US, 10
-      - US, 11
-      - US, 12
-      - US, 13
+      - JP
+      - JP 2
+      - JP 3
+      - JP 4
+      - JP 5
+      - KR
+      - KR 2
+      - KR 3
+      - KR 4
+      - KR 5
+      - US
+      - US 2
+      - US 3
+      - US 4
+      - US 5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - JP,
-      - JP, 2
-      - JP, 3
-      - JP, 4
-      - JP, 5
-      - KR,
-      - KR, 2
-      - KR, 3
-      - SG,
-      - US,
-      - US, 2
-      - US, 3
-      - US, 4
-      - US, 5
-      - US, 6
-      - US, 7
-      - US, 8
-      - US, 9
-      - US, 10
-      - US, 11
-      - US, 12
-      - US, 13
+      - JP
+      - JP 2
+      - JP 3
+      - JP 4
+      - JP 5
+      - KR
+      - KR 2
+      - KR 3
+      - KR 4
+      - KR 5
+      - US
+      - US 2
+      - US 3
+      - US 4
+      - US 5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - JP,
-      - JP, 2
-      - JP, 3
-      - JP, 4
-      - JP, 5
-      - KR,
-      - KR, 2
-      - KR, 3
-      - SG,
-      - US,
-      - US, 2
-      - US, 3
-      - US, 4
-      - US, 5
-      - US, 6
-      - US, 7
-      - US, 8
-      - US, 9
-      - US, 10
-      - US, 11
-      - US, 12
-      - US, 13
+      - JP
+      - JP 2
+      - JP 3
+      - JP 4
+      - JP 5
+      - KR
+      - KR 2
+      - KR 3
+      - KR 4
+      - KR 5
+      - US
+      - US 2
+      - US 3
+      - US 4
+      - US 5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -252,28 +196,21 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - JP,
-      - JP, 2
-      - JP, 3
-      - JP, 4
-      - JP, 5
-      - KR,
-      - KR, 2
-      - KR, 3
-      - SG,
-      - US,
-      - US, 2
-      - US, 3
-      - US, 4
-      - US, 5
-      - US, 6
-      - US, 7
-      - US, 8
-      - US, 9
-      - US, 10
-      - US, 11
-      - US, 12
-      - US, 13
+      - JP
+      - JP 2
+      - JP 3
+      - JP 4
+      - JP 5
+      - KR
+      - KR 2
+      - KR 3
+      - KR 4
+      - KR 5
+      - US
+      - US 2
+      - US 3
+      - US 4
+      - US 5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
