@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-12-07 09:33:40
+# 生成时间：2024-12-08 01:24:09
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,86 +58,86 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: JP, Tokyo
-    port: 443
-    server: 13.215.172.89
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: HK, Los Angeles
-    port: 443
-    server: 34.211.105.26
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: HK, Kowloon
-    port: 443
-    server: 13.212.204.100
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: US, Houston
-    port: 443
-    server: 54.213.68.70
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: HK, New Territories
-    port: 443
-    server: 18.142.177.17
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: TW, Taipei
+  - name: JP, Tokyo 2
     port: 443
     server: 52.77.239.64
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: JP, Tokyo 2
+  - name: HK, Los Angeles
     port: 443
-    server: 175.41.187.222
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: SG, Singapore
-    port: 443
-    server: 3.1.79.116
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: CA, Vancouver
-    port: 443
-    server: 18.236.148.85
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: JP, Osaka
-    port: 443
-    server: 43.201.29.224
+    server: 35.91.173.159
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
   - name: KR, Incheon
     port: 443
-    server: 13.250.47.75
+    server: 54.169.63.80
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: CA, Vancouver
+    port: 443
+    server: 54.185.28.215
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: SG, Singapore
+    port: 443
+    server: 54.255.203.251
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
   - name: US, Dallas 2
     port: 443
-    server: 52.89.164.115
+    server: 35.93.30.193
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: HK, New Territories
+    port: 443
+    server: 18.140.70.53
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: JP, Osaka
+    port: 443
+    server: 13.212.204.100
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: TW, Taipei
+    port: 443
+    server: 54.151.223.9
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: HK, Kowloon
+    port: 443
+    server: 43.203.255.151
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: JP, Tokyo
+    port: 443
+    server: 13.124.228.227
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: US, Houston
+    port: 443
+    server: 34.211.105.26
     type: ss
     udp: true
     password: amazonskr05
@@ -148,105 +148,105 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - JP, Tokyo
-      - HK, Los Angeles
-      - HK, Kowloon
-      - US, Houston
-      - HK, New Territories
-      - TW, Taipei
       - JP, Tokyo 2
-      - SG, Singapore
-      - CA, Vancouver
-      - JP, Osaka
+      - HK, Los Angeles
       - KR, Incheon
+      - CA, Vancouver
+      - SG, Singapore
       - US, Dallas 2
+      - HK, New Territories
+      - JP, Osaka
+      - TW, Taipei
+      - HK, Kowloon
+      - JP, Tokyo
+      - US, Houston
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - JP, Tokyo
-      - HK, Los Angeles
-      - HK, Kowloon
-      - US, Houston
-      - HK, New Territories
-      - TW, Taipei
       - JP, Tokyo 2
-      - SG, Singapore
-      - CA, Vancouver
-      - JP, Osaka
+      - HK, Los Angeles
       - KR, Incheon
+      - CA, Vancouver
+      - SG, Singapore
       - US, Dallas 2
+      - HK, New Territories
+      - JP, Osaka
+      - TW, Taipei
+      - HK, Kowloon
+      - JP, Tokyo
+      - US, Houston
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JP, Tokyo
-      - HK, Los Angeles
-      - HK, Kowloon
-      - US, Houston
-      - HK, New Territories
-      - TW, Taipei
       - JP, Tokyo 2
-      - SG, Singapore
-      - CA, Vancouver
-      - JP, Osaka
+      - HK, Los Angeles
       - KR, Incheon
+      - CA, Vancouver
+      - SG, Singapore
       - US, Dallas 2
+      - HK, New Territories
+      - JP, Osaka
+      - TW, Taipei
+      - HK, Kowloon
+      - JP, Tokyo
+      - US, Houston
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - JP, Tokyo
-      - HK, Los Angeles
-      - HK, Kowloon
-      - US, Houston
-      - HK, New Territories
-      - TW, Taipei
       - JP, Tokyo 2
-      - SG, Singapore
-      - CA, Vancouver
-      - JP, Osaka
+      - HK, Los Angeles
       - KR, Incheon
+      - CA, Vancouver
+      - SG, Singapore
       - US, Dallas 2
+      - HK, New Territories
+      - JP, Osaka
+      - TW, Taipei
+      - HK, Kowloon
+      - JP, Tokyo
+      - US, Houston
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - JP, Tokyo
-      - HK, Los Angeles
-      - HK, Kowloon
-      - US, Houston
-      - HK, New Territories
-      - TW, Taipei
       - JP, Tokyo 2
-      - SG, Singapore
-      - CA, Vancouver
-      - JP, Osaka
+      - HK, Los Angeles
       - KR, Incheon
+      - CA, Vancouver
+      - SG, Singapore
       - US, Dallas 2
+      - HK, New Territories
+      - JP, Osaka
+      - TW, Taipei
+      - HK, Kowloon
+      - JP, Tokyo
+      - US, Houston
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - JP, Tokyo
-      - HK, Los Angeles
-      - HK, Kowloon
-      - US, Houston
-      - HK, New Territories
-      - TW, Taipei
       - JP, Tokyo 2
-      - SG, Singapore
-      - CA, Vancouver
-      - JP, Osaka
+      - HK, Los Angeles
       - KR, Incheon
+      - CA, Vancouver
+      - SG, Singapore
       - US, Dallas 2
+      - HK, New Territories
+      - JP, Osaka
+      - TW, Taipei
+      - HK, Kowloon
+      - JP, Tokyo
+      - US, Houston
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -269,18 +269,18 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - JP, Tokyo
-      - HK, Los Angeles
-      - HK, Kowloon
-      - US, Houston
-      - HK, New Territories
-      - TW, Taipei
       - JP, Tokyo 2
-      - SG, Singapore
-      - CA, Vancouver
-      - JP, Osaka
+      - HK, Los Angeles
       - KR, Incheon
+      - CA, Vancouver
+      - SG, Singapore
       - US, Dallas 2
+      - HK, New Territories
+      - JP, Osaka
+      - TW, Taipei
+      - HK, Kowloon
+      - JP, Tokyo
+      - US, Houston
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
